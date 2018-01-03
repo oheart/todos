@@ -9,7 +9,7 @@ class Filters extends Component{
                    filters.map((filter,index) => 
                    <span style={{color:(filter.isActive ? 'red' : '#000')}}
                          onClick={ () => activeFilter(index)}>   
-                        {filter.name}  
+                        {filter.name} 
                    </span>)
                }
             </div>
